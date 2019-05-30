@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
     Story mT6 = new Story(R.string.T6_End);
 
     //indice corrente da historia
-    private Story mStorySelected;
+    private Story mStorySelected = mT1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,16 +43,31 @@ public class MainActivity extends AppCompatActivity {
 
 
         //TODO: Faça o link do layout com a activity
-        mStoryTextView.findViewById(R.id.storyTextView);
-        mAnswerTop.findViewById(R.id.buttonTop);
-        mAnswerBottom.findViewById(R.id.buttonBottom);
+
+        mStoryTextView = findViewById(R.id.storyTextView);
+        mAnswerTop = findViewById(R.id.buttonTop);
+        mAnswerBottom = findViewById(R.id.buttonBottom);
+
+        mStoryTextView.setText(mStorySelected.getStoryID());
+        mAnswerTop.setText(mStorySelected.getAnswerTop().getAnswerID());
+        mAnswerBottom.setText(mStorySelected.getAnswerBottom().getAnswerID());
+
 
         //TODO:faça o mapeamento da história
         mT1.setAnswerTop(mA1);
         mT1.setAnswerBottom(mA2);
+        mA1.setChildStory(mT3);
+        mA2.setChildStory(mT2);
 
         mT2.setAnswerTop(mB1);
+        mB1.setChildStory(mT3);
         mT2.setAnswerBottom(mB2);
+        mB2.setChildStory(mT4);
+
+        mT3.setAnswerTop(mC1);
+        mC1.setChildStory(mT6);
+        mT3.setAnswerBottom(mC2);
+        mC2.setChildStory(mT4);
 
 
         // TODO: Coloque o evento do click do botão, caso precise colocar a visibilidade no botão invisivel utilize a função
