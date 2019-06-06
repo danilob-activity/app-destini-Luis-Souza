@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Destini</string>
+    <string name="T1_Story">"Seu carro explodiu um pneu em uma estrada sinuosa no meio do nada, sem recepção de telefone celular. Você decide pedir carona. Uma caminhonete enferrujada ronca até parar perto de você. Um homem com um chapéu de abas largas e olhos sem alma abre a porta do passageiro e pergunta: Precisa de uma carona, garoto?  "</string>
+    <string name="T1_Ans1">Eu vou entrar. Obrigado pela ajuda!</string>
+    <string name="T1_Ans2">Melhor perguntar se ele é um assassino primeiro.</string>
+    <string name="T2_Story">"Ele balança a cabeça devagar, sem ênfase na pergunta.  "</string>
+    <string name="T2_Ans1">Pelo menos ele é honesto. Eu vou subir.</string>
+    <string name="T2_Ans2">"Espere, eu sei como trocar um pneu.  "</string>
+    <string name="T3_Story">Quando você começa a dirigir, o estranho começa a falar sobre seu relacionamento com sua mãe. Ele fica mais irritado e irritado a cada minuto. Ele pede para você abrir o porta-luvas. Dentro de você encontra uma faca ensanguentada, dois dedos decepados e uma fita cassete de Elton John. Ele alcança o porta-luvas.</string>
+    <string name="T3_Ans1">Eu amo o Elton John! Entregue-lhe a fita cassete.</string>
+    <string name="T3_Ans2">É ele ou eu! Você pega a faca e apunhala-o.</string>
+    <string name="T4_End">O que? Tal policial fora! Você sabia que os acidentes de trânsito são a segunda principal causa de morte acidental para a maioria dos grupos etários adultos?</string>
+    <string name="T5_End">Enquanto você atravessa a grade de proteção e se inclina para as pedras irregulares abaixo, você reflete sobre a dúbia sabedoria de esfaquear alguém enquanto eles estão dirigindo um carro em que você está.</string>
+    <string name="T6_End">"Você se liga com o assassino enquanto canta versos de Você pode sentir o amor esta noite? Ele deixa você na próxima cidade. Antes de ir, ele pergunta se você conhece algum lugar bom para despejar corpos. Você responde: tente o cais.  "</string>
+</resources>
